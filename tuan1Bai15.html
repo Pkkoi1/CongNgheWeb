@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free wed tutorials">
+    <meta name="keywords" content="HTML, CSS, XML, JAVASCRIPT">
+    <meta name="author" , content="Hege Refsnes">
+    <title>Bài 15</title>
+
+</head>
+
+<body>
+    <h2>Contact Us</h2>
+    <fieldset>
+        <legend> Your Message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+
+            </tr>
+            <tr>
+                <td><label for="emailFrom">Your email</label></td>
+                <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How you found us</legend>
+        <table>
+            <tr>
+                <td><label for="Reason">How did you find hear of us</label></td>
+                <td> <select name="Select" id="Reason" tabindex="1">
+                <option value="GG">Google</option>
+                <option value="FB">FaceBook</option>
+            </select></td>
+            </tr>
+            <tr>
+                <td><label for="check">Newsletter</label></td>
+                <td><input type="checkbox" id="check">Ensure this box is selected if you would like to receive email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="button" value="Send Message">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <table>
+            <tr>
+                <td><label for="fname">First name:</label></td>
+                <td><input type="text" name="txtfname" id="fname" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last name:</label></td>
+                <td><input type="text" name="txtlname" id="lname" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">E-Mail:</label></td>
+                <td><input type="email" name="txtmail" id="mail" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Competition Question</legend>
+        <table>
+            <thead>How tall is the Eiffel Tower in Paris, France?</thead>
+            <tr>
+                <td><input type="radio" name="ft">584ft</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="ft">784ft</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="ft">984ft</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="ft">1184ft</td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>TieBreaker</legend>
+    </fieldset>
+</body>
+
+</html>
