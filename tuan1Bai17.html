@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free wed tutorials">
+    <meta name="keywords" content="HTML, CSS, XML, JAVASCRIPT">
+    <meta name="author" , content="Hege Refsnes">
+    <title>Bài 17</title>
+    <style>
+        .Bai17{
+            background-color: rgb(231, 185, 86);
+        }
+        .Bai17 h3 {
+            text-align: center;
+        }
+        .Bai17 p{
+            margin-left: 20px;
+            font-family: 'Arial'
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Bai17">
+        <h3>Survey Form</h3>
+        <form action="">
+            <p>If you are interested in purchasing one or more of our products, before ordering please complete
+                sone of all of the following survey for our marketing department. Answerign any question is optional
+                , and all information will be kept strictly confidential. Thank you very much for your time!
+            </p>
+            <p>1. What is yout name? <br>
+            <input type="text" id="Name" name="name" size="50" maxlength="20"></p>
+            <p>2. What is your date of birth? <br>
+            Month: <select name="month" id="m">
+                <option value="">January</option>
+                <option value="">February</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">August</option>
+                <option value="">Septemper</option>
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+            </select>
+        Date: <select name="date" id="d">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+        </select>
+        Year: <input type="text" id = "year" name="year" size="5" maxlength="5" placeholder="19"></p>
+        <p>3. What is your mailing address(if your would like to have a hard copy of our catalog sent to you)? <br>
+        <textarea name="mailing" id="mailing" cols="30" rows="10" placeholder="Number/P.O. Box/Route: Street/Avenue/Road: City: State/Zip:"></textarea></p>
+        <p>4. What is your email address? <br>
+        <input type="text" id="mail" name="mail" size="20" maxlength="20"></p>
+        <p>5. Have you viewed our online product catalog? <br>
+        <input type="radio" id="haveU" name="haveU">Yes
+        <input type="radio" id="haveU" name="haveU">No</p>
+        <p>6. If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that aplly) <br>
+            <input type="checkbox" name="product">VCR <br>
+                    <input type="checkbox" name="product">Big Screen TV <br>
+                    <input type="checkbox" name="product"> Audio Equipment <br>
+                    <input type="checkbox" name="product"> Video Equipment <br>
+                    <input type="checkbox" name="product"> Camera Equipment <br>
+                    <input type="checkbox" name="product"> Other <input type="text" placeholder="Please List">
+        </p>
+        <p>7. Do you have any questions, comments or suggestions before proceeding to the Order Form? <br>
+        <textarea name="Q" id="Q" cols="50" rows="10" placeholder="Your Input:"></textarea></p>
+        <p style="text-align: center;"><input type="submit" name="sc" id="sc" value="Send Form">
+        <input type="reset" name="sc" id="sc" value="Clear Form"></p>
+        </form>
+    </div>
+</body>
+</html>
